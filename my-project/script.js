@@ -6,7 +6,7 @@ let countdownInterval; // To manage the countdown for the "try again" button
 async function loadModel() {
     try {
         console.log("Loading model...");
-        model = await tf.loadLayersModel('https://your-project-name.vercel.app/my-project/model/model.json');
+        model = await tf.loadLayersModel('https://skin-sense-2-0.vercel.app/my-project/model/model.json');
         console.log("Model Loaded");
     } catch (error) {
         console.error("Error loading the model:", error);
